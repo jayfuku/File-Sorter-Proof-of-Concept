@@ -1,5 +1,11 @@
 #include "main.h"
+std::vector<std::string> parseFiles(std::string path) {
+	std::vector<std::string> fileVec;
+	for (const auto& entry : std::filesystem::directory_iterator(path)) {
 
+	}
+	return fileVec;
+}
 
 int main() {
 	std::cout << "Welcome to the file sorter app proof of concept" << std::endl;

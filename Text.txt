@@ -1,1 +1,3 @@
 Once all destination files are found, add a key shortcut for each for a faster experience
+
+Add extensions to exclude or only include
